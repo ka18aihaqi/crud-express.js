@@ -68,8 +68,10 @@ Example of a user object:
   "name": "John Doe",
   "password": "hashedpassword123"
 }
+```
 
 🔥 Example Request (POST)
+```json
 curl -X POST http://localhost:3000/api/users \
    -H "Content-Type: application/json" \
    -d '{
@@ -78,6 +80,7 @@ curl -X POST http://localhost:3000/api/users \
      "name": "Jane Doe",
      "password": "mypassword123"
    }'
+```
 
 🎯 Purpose
 This project was created as a learning exercise to practice building a REST API with Express.js, focusing on user management with basic CRUD operations.
