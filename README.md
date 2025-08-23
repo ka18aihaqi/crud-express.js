@@ -32,24 +32,35 @@ The project demonstrates the basics of backend development with Node.js and Expr
    git clone https://github.com/ka18aihaqi/crud-express.js.git
    cd crud-express.js
 2. Install dependencies
+   ```bash
    npm install
-3. Run the server
+4. Run the server
+   ```bash
    npm run dev   # if using nodemon
    # or
    node server.js
-4. The server will start at:
+6. The server will start at:
+   ```bash
    http://localhost:3000
 
-📌 API Endpoints
-Method	    Endpoint	        Description
-GET	        /api/users	      Get all users
-GET	        /api/users/:id	  Get user by ID
-POST	      /api/users	      Create a new user
-PUT	        /api/users/:id	  Update user by ID
-DELETE	    /api/users/:id	  Delete user by ID
+---
 
-📂 User Schema
+## 📌 API Endpoints
+
+| Method | Endpoint         | Description       |
+|--------|------------------|-------------------|
+| GET    | `/api/users`     | Get all users     |
+| GET    | `/api/users/:id` | Get user by ID    |
+| POST   | `/api/users`     | Create a new user |
+| PUT    | `/api/users/:id` | Update user by ID |
+| DELETE | `/api/users/:id` | Delete user by ID |
+
+---
+
+## 📂 User Schema
+
 Example of a user object:
+```json
 {
   "id": 1,
   "email": "john.doe@example.com",
