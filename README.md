@@ -82,9 +82,9 @@ curl -X POST http://localhost:3000/api/users \
    }'
 ```
 
-🎯 Purpose
+## 🎯 Purpose
 This project was created as a learning exercise to practice building a REST API with Express.js, focusing on user management with basic CRUD operations.
 
-📄 License
+## 📄 License
 This project is not licensed under anyone.
 Feel free to use, modify, and distribute it as needed.
